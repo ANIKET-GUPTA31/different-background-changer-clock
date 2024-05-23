@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51b199799f.js" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+    <div class="changeBackground">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+    <button id="button2" onclick="changeBackground()">Change Background</button>
+    <button class="next" ><i class="fa-solid fa-arrow-right"></i></button>
+</div>
+
+    <div class="mainbody">
+    <div class="clock" id="clock">
+        <div class="number" style="--n:1"><b>1</b></div>
+        <div class="number"style="--n:2"><b>2</b></div>
+        <div class="number"style="--n:3"><b>3</b></div>
+        <div class="number"style="--n:4"><b>4</b></div>
+        <div class="number"style="--n:5"><b>5</b></div>
+        <div class="number"style="--n:6"><b>6</b></div>
+        <div class="number"style="--n:7"><b>7</b></div>
+        <div class="number"style="--n:8"><b>8</b></div>
+        <div class="number"style="--n:9"><b>9</b></div>
+        <div class="number"style="--n:10"><b>10</b></div>
+        <div class="number"style="--n:11"><b>11</b></div>
+        <div class="number"style="--n:12"><b>12</b></div>
+
+        <div class="hor" id="hor"></div>
+        <div class="min" id="min"></div>
+        <div class="sec" id="sec"></div>
+       
+
+        <div class="center_dot"></div>
+
+        <div class="diclock"> 00:00:00 </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
